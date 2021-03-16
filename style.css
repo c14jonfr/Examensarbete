@@ -44,6 +44,8 @@ nav li {
   position: relative;
   text-decoration: none;
   transition-duration: 0.5s;
+  width: 7rem;
+  text-align: center;
 }
   
 nav li a {
