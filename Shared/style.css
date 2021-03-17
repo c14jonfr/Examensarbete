@@ -40,16 +40,18 @@ nav li {
   background: darkorange;
   display: block;
   float: left;
-  padding: 1rem;
   position: relative;
   text-decoration: none;
   transition-duration: 0.5s;
   width: 7rem;
+  height: 3rem;
+  line-height: 3rem;
   text-align: center;
 }
   
 nav li a {
   color: #fff;
+  display: block;
 }
 
 nav li:hover,
@@ -73,7 +75,6 @@ nav .top-menu li .sub-menu {
   width: 100%;
   position: absolute;
   transition: all 0.5s ease;
-  margin-top: 1rem;
   left: 0;
   display: none;
 }
