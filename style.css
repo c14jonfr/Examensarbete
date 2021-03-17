@@ -62,6 +62,10 @@ nav li:focus-within a {
   outline: none;
 }
 
+nav .top-menu > li{
+  margin: 0 2rem;
+}
+
 nav .top-menu li .sub-menu {
   background: orange;
   visibility: hidden;
