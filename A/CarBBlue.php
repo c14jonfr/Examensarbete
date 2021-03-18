@@ -11,7 +11,7 @@
   <div class="container">
     <?php include '../Shared/nav-menu.php'?>
     <main>
-      <img src="../Shared/Images/CarBlue.jpg" alt="">  
+      <img src="../Shared/Images/CarBlue.jpg" alt="productimage car company B blue">  
     </main>
   </div>
 </body>
