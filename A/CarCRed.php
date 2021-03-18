@@ -10,6 +10,9 @@
 <body>
   <div class="container">
     <?php include '../Shared/nav-menu.php'?>
+    <main>
+      <img src="../Shared/Images/CarRed.jpg" alt="productimage car company C red">  
+    </main>
   </div>
 </body>
 </html>
