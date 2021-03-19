@@ -61,7 +61,6 @@ nav li a {
 nav li:hover,
 nav li:focus-within {
   background: red;
-  cursor: pointer;
 }
 
 nav li:focus-within a {
