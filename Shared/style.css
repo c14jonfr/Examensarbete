@@ -119,6 +119,7 @@ nav ul li ul li {
   right: 0;
   z-index: 99;
   pointer-events: none;
+  backdrop-filter: blur(1px);
 }
 
 .hidden{
