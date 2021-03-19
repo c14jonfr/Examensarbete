@@ -121,6 +121,10 @@ nav ul li ul li {
   pointer-events: none;
 }
 
+.hidden{
+  display: none;
+}
+
 .macular-degeneration{
   background-image: -webkit-radial-gradient(circle, rgba(150,150,150,0.9400000000000001) 20%, transparent 50%);
 }
