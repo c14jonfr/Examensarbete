@@ -11,3 +11,15 @@ const nextSim = () => {
   currentSim = currentSim == sims.length-1 ? 0 : currentSim+1;
   VIS.classList.add(sims[currentSim])
 }
+
+document.addEventListener('keydown', (e) => {
+  if(e.key === 'p' || e.key === 'P'){
+    nextSim();
+    return;
+  }
+  if(e.key === 'o' || e.key === 'O'){
+    toggleVIS();
+    return;
+  }
+});
+
