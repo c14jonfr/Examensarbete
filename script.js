@@ -4,6 +4,7 @@ let currentSim = 0;
 
 const toggleVIS = () => {
   VIS.classList.toggle('hidden');
+  document.getElementsByClassName('container')[0].classList.toggle('blur-filter');
 }
 
 const nextSim = () => {
