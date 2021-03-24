@@ -38,3 +38,32 @@ audioItems.forEach(item => {
     audioElement.currentTime = 0;
   })
 })
+
+
+let currentTask;
+if(localStorage.getItem('currentTask')){
+  currentTask = localStorage.getItem('currentTask');
+}else{
+  currentTask = 0;
+}
+
+const solutions = document.querySelectorAll('.solution');
+
+const nextTask = () => {
+  console.log('go next')
+  //stop timer here, save to localstorage
+  currentTask++;
+  localStorage.setItem('currentTask', currentTask)
+}
+
+const handleSolutionClick = (e) => {
+  const target = e.target.getAttribute('data-solution');
+  console.log(target, currentTask, target == currentTask)
+  if(target == currentTask){
+    nextTask();
+  }
+}
+
+solutions.forEach(solution => {
+  solution.addEventListener('click', handleSolutionClick);
+})
