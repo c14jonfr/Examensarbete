@@ -5,9 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../Shared/style.css">
+  <script src="./AudioHandler.js" defer></script>
   <title>Car Company B Green</title>
 </head>
 <body>
+  <audio src="" id="audio-element" loop></audio>
   <div class="container">
     <?php include '../Shared/nav-menu.php'?>
     <main>
