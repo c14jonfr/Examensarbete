@@ -9,6 +9,7 @@
   <title>Boat Company A Red</title>
 </head>
 <body>
+  <audio src="" id="audio-element" loop></audio>
   <div class="container">
     <?php include '../Shared/nav-menu.php'?>
     <main>
