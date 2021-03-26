@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../Shared/style.css">
   <script src="./AudioHandler.js" defer></script>
+  <script src="../Shared/TaskHandler.js" defer></script>
   <title>Plane Company A Blue</title>
 </head>
 <body>
