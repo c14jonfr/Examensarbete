@@ -29,7 +29,7 @@ const nextTask = () => {
   taskTimes.push(taskTime);
   localStorage.setItem('taskTimes', JSON.stringify(taskTimes))
   currentTask++;
-  currentTask > tasks.length - 1 && (window.location.href = '../questions.php');
+  currentTask > tasks.length - 1 && (window.location.href = './Form.php');
   localStorage.setItem('currentTask', currentTask)
   instruction.textContent = tasks[currentTask];
   instructions.style.display = 'flex';
