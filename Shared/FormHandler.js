@@ -7,3 +7,5 @@ const handleSubmit = (e) => {
   taskTimesInput.value = taskTimes;
   form.submit();
 }
+
+form.addEventListener('submit', handleSubmit);
