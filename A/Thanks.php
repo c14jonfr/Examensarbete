@@ -1,5 +1,5 @@
 <?php
-  $file = "../data/dataA.json";
+  $file = "../../Data/dataA.json";
   $strJsonFileContents = file_get_contents($file);
   $array = json_decode($strJsonFileContents, true);
   if(isset($_POST['form_submitted'])) {
