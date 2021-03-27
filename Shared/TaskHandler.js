@@ -1,5 +1,9 @@
 //array of tasks, this should be updated with the real tasks
-const tasks = ['do this', 'do that']
+const tasks = ['Find the green car by company B and click the "Buy"-button',
+ 'Find the blue plane by company C and recommend it to a friend',
+  'Buy a blue car by company C',
+  'Find a red boat by company A and click the image of the boat'
+]
 //gets current task if there is one saved in localstorage, otherwise start from 0
 let currentTask = parseInt(localStorage.getItem('currentTask')) || 0;
 
