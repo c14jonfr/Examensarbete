@@ -13,9 +13,14 @@ const instructions = document.getElementById('instructions');
 const instruction = document.getElementById('instruction-p');
 instruction.innerHTML = tasks[currentTask];
 
+if(!localStorage.getItem('instructions-status') || localStorage.getItem('instructions-status') === 'shown'){
+  instructions.style.display = 'flex';
+}
+
 //start the timer and hide the instructions
 const startTask = () => {
   instructions.style.display = 'none';
+  localStorage.setItem('instructions-status', 'hidden');
   const startTime = Date.now();
   localStorage.setItem('taskStart', startTime);
 }
@@ -37,6 +42,7 @@ const nextTask = () => {
   localStorage.setItem('currentTask', currentTask)
   instruction.textContent = tasks[currentTask];
   instructions.style.display = 'flex';
+  localStorage.setItem('instructions-status', 'shown');
 }
 
 //if clicked item is solution for the task, complete task and go to next
