@@ -25,7 +25,7 @@
         <h3 class="product-name">Green Car</h3>
         <h4 class="product-company">Company B</h4>
         <div class="buttons">
-          <button class="buy-button">Buy</button>
+          <button class="buy-button solution" data-solution="0">Buy</button>
           <button class="share-button">Recommend to a friend</button>
         </div>
         <p class="product-description">

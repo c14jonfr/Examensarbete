@@ -21,7 +21,7 @@
     <?php include '../Shared/nav-menu.php'?>
     <main>
       <div class="product">
-        <img src="../Shared/Images/BoatRed.jpg" alt="productimage boat company A red">
+        <img src="../Shared/Images/BoatRed.jpg" alt="productimage boat company A red" class="solution" data-solution="3">
         <h3 class="product-name">Red Boat</h3>
         <h4 class="product-company">Company A</h4>
         <div class="buttons">
