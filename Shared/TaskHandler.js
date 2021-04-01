@@ -11,7 +11,9 @@ const solutions = document.querySelectorAll('.solution');
 const startButton = document.getElementById('start-button');
 const instructions = document.getElementById('instructions');
 const instruction = document.getElementById('instruction-p');
+const previousTask = document.getElementById('previous-task');
 instruction.innerHTML = tasks[currentTask];
+previousTask.textContent = currentTask > 0 ? 'Task '+(currentTask)+' completed' : 'This is your first task';
 
 if(!localStorage.getItem('instructions-status') || localStorage.getItem('instructions-status') === 'fullsize'){
   instructions.classList.remove('instructions-minimized');
@@ -42,10 +44,11 @@ const nextTask = () => {
   currentTask++;
   currentTask > tasks.length - 1 && (window.location.href = './Form.php');
   localStorage.setItem('currentTask', currentTask)
+  previousTask.textContent = tasks[currentTask] ? 'Task '+(currentTask)+' completed' : 'This is your first task';
   instruction.textContent = tasks[currentTask];
   //instructions.style.display = 'flex';
   instructions.classList.toggle('instructions-minimized');
-  //localStorage.setItem('instructions-status', 'shown');
+  localStorage.setItem('instructions-status', 'fullsize');
 }
 
 //if clicked item is solution for the task, complete task and go to next

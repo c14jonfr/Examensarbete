@@ -154,6 +154,7 @@ nav ul li ul li {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-color: rgba(82, 82, 82, 0.3);
 }
 
 .instructions-minimized{
@@ -162,8 +163,17 @@ nav ul li ul li {
   padding: 1rem;
 }
 
-.instructions-minimized button{
+.instructions-minimized button,
+.instructions-minimized #previous-task,
+.instructions-minimized #next-task,
+.instructions-minimized #timer-info{
   display:none;
+}
+
+.instructions > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .instruction-div{
