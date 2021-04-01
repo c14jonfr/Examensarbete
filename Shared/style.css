@@ -151,9 +151,19 @@ nav ul li ul li {
   bottom: 0;
   right: 0;
   z-index: 999;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.instructions-minimized{
+  bottom: auto;
+  width: 250px;
+  padding: 1rem;
+}
+
+.instructions-minimized button{
+  display:none;
 }
 
 .instruction-div{
