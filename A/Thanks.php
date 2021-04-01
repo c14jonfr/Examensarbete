@@ -15,7 +15,7 @@
     $array[] = $arr;
     $json_string = json_encode($array);
     file_put_contents($file, $json_string);
-}
+  }
 ?>
 
 <!DOCTYPE html>

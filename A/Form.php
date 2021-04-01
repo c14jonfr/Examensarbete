@@ -10,7 +10,11 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container form-page">
+  <h3>Important!</h3>
+  <p>No data has been collected yet. Your participation is not over until this questionnaire is submitted.
+  This means you can choose to stop your participation by not submitting this form. 
+  Please answer the questionnaire as truthfully as possible. </p>
   <form name="form" method="post" id="form" action="./Thanks.php">
         <div>
             <label for="age">Age: </label>
@@ -32,16 +36,16 @@
             </select>
         </div>
         <div>
-            <label for="effort">How much effort did it take you to navigate with the menu and solve the tasks? </label><br>
-            0 <input type="range" name="effort" id="effort" min="0" max="10"> 10
+            <label for="effort">How much effort did it take you to navigate with the menu and solve the tasks? </label>
+            <div><div>Little effort</div><input type="range" name="effort" id="effort" min="0" max="10"><div>A lot of effort</div></div>  
         </div>
         <div>
-            <label for="annoyance">Did you find the audio annoying?</label><br>
-            Not annoying <input type="range" name="annoyance" id="annoyance" min="0" max="10"> Annoying
+            <label for="annoyance">Did you find the audio annoying?</label>
+            <div><div>Not annoying</div><input type="range" name="annoyance" id="annoyance" min="0" max="10"><div>Annoying</div></div>
         </div>
         <div>
-            <label for="effort">Did you find the audio helpful?</label><br>
-            Not helpful <input type="range" name="helpfulness" id="helfulness" min="0" max="10"> Helpful
+            <label for="effort">Did you find the audio helpful?</label>
+            <div><div>Not helpful</div><input type="range" name="helpfulness" id="helfulness" min="0" max="10"><div>Helpful</div></div>
         </div>
         <div>
           <input type="hidden" name="taskTimes" id="taskTimes" value="">
