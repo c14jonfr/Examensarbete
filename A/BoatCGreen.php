@@ -10,12 +10,7 @@
   <title>Boat Company C Green</title>
 </head>
 <body>
-  <div class="instructions" id="instructions">
-    <div class="instruction-div">
-      <p id="instruction-p">here goes instruction/task text</p>
-      <button id="start-button">Start task</button>
-    </div>
-  </div>
+  <?php include '../Shared/instructions.php'?>
   <audio src="" id="audio-element" loop></audio>
   <div class="container">
     <?php include '../Shared/nav-menu.php'?>
