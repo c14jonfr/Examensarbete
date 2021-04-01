@@ -48,6 +48,10 @@
             <div><div>Not helpful</div><input type="range" name="helpfulness" id="helfulness" min="0" max="10"><div>Helpful</div></div>
         </div>
         <div>
+            <label for="comments">Do you have any general comments about the application or the test? (Optional)</label>
+            <div><textarea name="comments" id="comments" form="form"></textarea></div>
+        </div>
+        <div>
           <input type="hidden" name="taskTimes" id="taskTimes" value="">
         </div>
         <div style="text-align: center;">

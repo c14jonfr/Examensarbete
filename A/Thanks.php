@@ -10,6 +10,7 @@
         'effort'    => $_POST['effort'],
         'annoyance'    => $_POST['annoyance'],
         'helpfulness'    => $_POST['helpfulness'],
+        'comments'        => $_POST['comments'],
         'taskTimes' => json_decode($_POST['taskTimes'])
     );
     $array[] = $arr;
