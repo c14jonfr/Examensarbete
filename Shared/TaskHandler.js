@@ -27,6 +27,7 @@ const startTask = () => {
   localStorage.setItem('instructions-status', 'minimized');
   const startTime = Date.now();
   localStorage.setItem('taskStart', startTime);
+  currentTask === 0 && localStorage.setItem('totalStart', startTime);
 }
 startButton.addEventListener('click', startTask);
 
@@ -37,9 +38,14 @@ const taskTimes = JSON.parse(localStorage.getItem('taskTimes')) || [];
 const nextTask = () => {
   const stopTime = Date.now();
   const startTime = localStorage.getItem('taskStart');
-  const totalTime = (stopTime - startTime) / 1000;
-  const taskTime = {task: currentTask, time: totalTime}
+  const totalTaskTime = (stopTime - startTime) / 1000;
+  const taskTime = {task: currentTask, time: totalTaskTime}
   taskTimes.push(taskTime);
+  if(currentTask === (tasks.length - 1)){
+    const totalStartTime = localStorage.getItem('totalStart');
+    const totalTime = {totalTime: (stopTime - totalStartTime) / 1000};
+    taskTimes.push(totalTime);
+  }
   localStorage.setItem('taskTimes', JSON.stringify(taskTimes))
   currentTask++;
   currentTask > tasks.length - 1 && (window.location.href = './Form.php');
