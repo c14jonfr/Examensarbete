@@ -243,6 +243,16 @@ svg{
   -webkit-filter: opacity(66%);
 }
 
+.diabetic-retinopathy{
+  -webkit-transform: scale(1);
+  -webkit-transform-origin: 0 0;
+  background-image: url('./Images/DiabeticRetinopathy.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  -webkit-filter: opacity(66%);
+}
+
 .form-page{
   display: flex;
   justify-content: center;
