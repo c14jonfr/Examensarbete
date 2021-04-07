@@ -12,7 +12,13 @@
 <body>
   <?php include '../Shared/instructions.php'?>
   <audio src="" id="audio-element" loop></audio>
-  <div class="container">
+  <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+    </filter>
+  </svg>
+  <div id="visual-impairment-simulator" class="vis-container diabetic-retinopathy"></div>
+  <div class="container blur-filter">
     <?php include '../Shared/nav-menu.php'?>
     <main>
     <div class="product">
