@@ -69,3 +69,10 @@ const handleSolutionClick = (e) => {
 solutions.forEach(solution => {
   solution.addEventListener('click', handleSolutionClick);
 })
+
+const closeIntroduction = document.getElementById('close-introduction');
+const introduction = document.getElementById('introduction');
+
+closeIntroduction.addEventListener('click', () => {
+  introduction.style.display = 'none';
+})

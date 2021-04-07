@@ -12,6 +12,26 @@ body{
   height: 100%;
 }
 
+.introduction{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.introduction p{
+  width: 60ch;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
 .container{
  width: 1200px;
  border: 1px solid red;
