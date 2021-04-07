@@ -1,7 +1,7 @@
 <?php echo '
   <nav role="navigation">
   <ul class="top-menu">
-    <li tabindex="0">Cars
+    <li tabindex="0" class="audio-item" data-audio="Car.mp3">Cars
       <ul class="sub-menu">
         <li tabindex="0" class="audio-item" data-audio="CarA.mp3">Company A
           <ul class="sub-sub-menu">
@@ -26,7 +26,7 @@
         </li>
       </ul>
     </li>
-    <li tabindex="0">Boats
+    <li tabindex="0" class="audio-item" data-audio="Boat.mp3">Boats
       <ul class="sub-menu">
         <li tabindex="0" class="audio-item" data-audio="BoatA.mp3">Company A
           <ul class="sub-sub-menu">
@@ -51,7 +51,8 @@
         </li>
       </ul>
     </li>
-    <li tabindex="0">Planes
+    <!-- Original sample by JillianCallahan https://freesound.org/people/JillianCallahan/ used under Sampling+ License-->
+    <li tabindex="0" class="audio-item" data-audio="Plane.mp3">Planes
       <ul class="sub-menu sub-menu-right">
         <li tabindex="0" class="audio-item" data-audio="PlaneA.mp3">Company A
           <ul class="sub-sub-menu">
