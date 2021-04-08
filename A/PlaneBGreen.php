@@ -22,7 +22,7 @@
         <h4 class="product-company">Company B</h4>
         <div class="buttons">
           <button class="buy-button">Buy</button>
-          <button class="share-button">Recommend to a friend</button>
+          <button class="share-button solution" data-solution="4">Recommend to a friend</button>
         </div>
         <p class="product-description">
           An airplane or aeroplane (informally plane) is a fixed-wing aircraft that is propelled forward by thrust from a jet engine, propeller, or rocket engine. Airplanes come in a variety of sizes, shapes, and wing configurations. The broad spectrum of uses for airplanes includes recreation, transportation of goods and people, military, and research. Worldwide, commercial aviation transports more than four billion passengers annually on airliners and transports more than 200 billion tonne-kilometers of cargo annually, which is less than 1% of the world's cargo movement.

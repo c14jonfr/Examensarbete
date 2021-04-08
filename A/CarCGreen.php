@@ -17,7 +17,7 @@
     <?php include '../Shared/nav-menu.php'?>
     <main>
       <div class="product">
-        <img src="../Shared/Images/CarGreen.jpg" alt="productimage car company C green">
+        <img src="../Shared/Images/CarGreen.jpg" alt="productimage car company C green" class="solution" data-solution="6">
         <h3 class="product-name">Green Car</h3>
         <h4 class="product-company">Company C</h4>
         <div class="buttons">

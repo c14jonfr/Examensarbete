@@ -21,7 +21,7 @@
         <h3 class="product-name">Red Plane</h3>
         <h4 class="product-company">Company A</h4>
         <div class="buttons">
-          <button class="buy-button">Buy</button>
+          <button class="buy-button solution" data-solution="7">Buy</button>
           <button class="share-button">Recommend to a friend</button>
         </div>
         <p class="product-description">

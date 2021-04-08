@@ -22,7 +22,7 @@
         <h4 class="product-company">Company A</h4>
         <div class="buttons">
           <button class="buy-button">Buy</button>
-          <button class="share-button">Recommend to a friend</button>
+          <button class="share-button solution" data-solution="9">Recommend to a friend</button>
         </div>
         <p class="product-description">
           A car (or automobile) is a wheeled motor vehicle used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people rather than goods.

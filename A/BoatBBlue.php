@@ -17,11 +17,11 @@
     <?php include '../Shared/nav-menu.php'?>
     <main>
     <div class="product">
-        <img src="../Shared/Images/BoatBlue.jpg" alt="productimage boat company B blue">
+        <img src="../Shared/Images/BoatBlue.jpg" alt="productimage boat company B blue" class="solution" data-solution="8">
         <h3 class="product-name">Blue Boat</h3>
         <h4 class="product-company">Company B</h4>
         <div class="buttons">
-          <button class="buy-button">Buy</button>
+          <button class="buy-button solution" data-solution="5">Buy</button>
           <button class="share-button">Recommend to a friend</button>
         </div>
         <p class="product-description">
