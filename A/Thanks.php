@@ -8,8 +8,9 @@
         'age'     => $_POST['age'],
         'gender'    => $_POST['gender'],
         'effort'    => $_POST['effort'],
-        'annoyance'    => $_POST['annoyance'],
-        'helpfulness'    => $_POST['helpfulness'],
+        'menu-annoyance'    => $_POST['menu-annoyance'],
+        'audio-annoyance'    => $_POST['audio-annoyance'],
+        'audio-helpfulness'    => $_POST['audio-helpfulness'],
         'comments'        => $_POST['comments'],
         'taskTimes' => json_decode($_POST['taskTimes'])
     );

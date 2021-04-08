@@ -40,12 +40,16 @@
             <div><div>Little effort</div><input type="range" name="effort" id="effort" min="0" max="10"><div>A lot of effort</div></div>  
         </div>
         <div>
-            <label for="annoyance">Did you find the audio annoying?</label>
-            <div><div>Not annoying</div><input type="range" name="annoyance" id="annoyance" min="0" max="10"><div>Annoying</div></div>
+            <label for="menu-annoyance">Did you find the graphical menu annoying?</label>
+            <div><div>Not annoying</div><input type="range" name="menu-annoyance" id="menu-annoyance" min="0" max="10"><div>Annoying</div></div>  
         </div>
         <div>
-            <label for="effort">Did you find the audio helpful?</label>
-            <div><div>Not helpful</div><input type="range" name="helpfulness" id="helfulness" min="0" max="10"><div>Helpful</div></div>
+            <label for="audio-annoyance">Did you find the audio annoying?</label>
+            <div><div>Not annoying</div><input type="range" name="audio-annoyance" id="audio-annoyance" min="0" max="10"><div>Annoying</div></div>
+        </div>
+        <div>
+            <label for="audio-helpfulness">Did you find the audio helpful?</label>
+            <div><div>Not helpful</div><input type="range" name="audio-helpfulness" id="audio-helfulness" min="0" max="10"><div>Helpful</div></div>
         </div>
         <div>
             <label for="comments">Do you have any general comments about the application or the test? (Optional)</label>
