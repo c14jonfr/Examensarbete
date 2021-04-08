@@ -34,7 +34,6 @@ body{
 
 .container{
  width: 1200px;
- border: 1px solid red;
  min-height: 100%;
  display: flex;
  flex-direction: column;
@@ -266,7 +265,6 @@ svg{
 }
 
 form{
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
