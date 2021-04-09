@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -324,4 +325,8 @@ textarea{
   width: 100%;
   height: 10rem;
   padding: 0.2rem;
+}
+
+.thank-you{
+  justify-content: center;
 }

@@ -29,6 +29,6 @@
   <title>Document</title>
 </head>
 <body>
-  thank you for participating!
+  <?php include '../Shared/thank-you.php'?>
 </body>
 </html>
