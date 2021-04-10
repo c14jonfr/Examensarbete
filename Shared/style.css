@@ -175,6 +175,7 @@ nav ul li ul li {
   flex-direction: column;
   justify-content: flex-end;
   background-color: rgba(82, 82, 82, 0.3);
+  font-size: 1.5rem;
 }
 
 .instructions-minimized{
@@ -222,7 +223,7 @@ svg{
 }
 
 .macular-degeneration{
-  background-image: -webkit-radial-gradient(circle, rgba(150,150,150,0.9400000000000001) 20%, transparent 50%);
+  background-image: -webkit-radial-gradient(circle, rgba(59, 59, 59, 0.94) 20%, transparent 50%);
 }
 
 .glaucoma{
