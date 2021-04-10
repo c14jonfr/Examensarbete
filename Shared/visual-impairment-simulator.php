@@ -4,5 +4,5 @@
     <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
   </filter>
 </svg>
-<div id="visual-impairment-simulator" class="vis-container diabetic-retinopathy"></div>
+<div id="visual-impairment-simulator" class="vis-container glaucoma"></div>
 '?>
