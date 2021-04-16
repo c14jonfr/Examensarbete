@@ -227,7 +227,7 @@ svg{
 }
 
 .glaucoma{
-  background-image: -webkit-radial-gradient(circle, transparent 30%, black 70%);
+  background-image: -webkit-radial-gradient(circle, transparent 10%, black 55%);
 }
 
 .hemianopia{
