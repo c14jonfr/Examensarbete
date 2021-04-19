@@ -1,10 +1,11 @@
 <?php
-  $file = "../../Data/dataB.json";
+  $file = "../../Data/data.json";
   $strJsonFileContents = file_get_contents($file);
   $array = json_decode($strJsonFileContents, true);
   if(isset($_POST['form_submitted'])) {
     $arr = array(
         'id'      => count($array),
+        'application' => 'B',
         'age'     => $_POST['age'],
         'gender'    => $_POST['gender'],
         'effort'    => $_POST['effort'],

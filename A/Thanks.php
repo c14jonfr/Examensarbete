@@ -1,10 +1,11 @@
 <?php
-  $file = "../../Data/dataA.json";
+  $file = "../../Data/data.json";
   $strJsonFileContents = file_get_contents($file);
   $array = json_decode($strJsonFileContents, true);
   if(isset($_POST['form_submitted'])) {
     $arr = array(
         'id'      => count($array),
+        'application' => 'A',
         'age'     => $_POST['age'],
         'gender'    => $_POST['gender'],
         'effort'    => $_POST['effort'],
@@ -26,6 +27,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Shared/style.css">
   <title>Document</title>
 </head>
 <body>
