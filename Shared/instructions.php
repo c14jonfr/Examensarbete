@@ -2,6 +2,7 @@
 <div class="instructions" id="instructions">
   <div class="instruction-div">
     <div>
+    <p id="audio-tip">Tip! The audio in the navigation menu can be used for navigation. Listen carefully!</p>
     <p id="previous-task">This is your first task!</p>
     <p id="next-task">Your next task is:</p>
     <p id="instruction-p">here goes instruction/task text</p>

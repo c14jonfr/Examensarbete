@@ -187,8 +187,25 @@ nav ul li ul li {
 .instructions-minimized button,
 .instructions-minimized #previous-task,
 .instructions-minimized #next-task,
-.instructions-minimized #timer-info{
+.instructions-minimized #timer-info,
+.instructions-minimized #audio-tip{
+  display:none !important;
+}
+
+#timer-info{
+  font-weight: bold;
+}
+
+#audio-tip{
   display:none;
+  padding: 0.5rem;
+  border: 2px solid red;
+  background-color: orange;
+  font-size: 2rem;
+}
+
+.instructions p{
+  max-width: 45ch;
 }
 
 .instructions > div{

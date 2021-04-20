@@ -27,6 +27,11 @@ if(!localStorage.getItem('instructions-status') || localStorage.getItem('instruc
   instructions.classList.add('instructions-minimized');
 }
 
+//display audio-tip/hint only for users of the A version
+if(window.location.href.includes('/A/') && currentTask >= 5){
+  document.getElementById('audio-tip').style.display = 'block';
+}
+
 //start the timer and hide the instructions
 const startTask = () => {
   instructions.classList.toggle('instructions-minimized')
