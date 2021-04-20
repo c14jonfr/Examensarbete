@@ -22,9 +22,10 @@ body{
   background-color: white;
   z-index: 9999;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 3rem;
+  overflow: auto;
 }
 
 .introduction p{
