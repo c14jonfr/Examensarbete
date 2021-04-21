@@ -36,8 +36,8 @@
             </select>
         </div>
         <div>
-            <label for="effort">How much effort did it take you to navigate with the menu and solve the tasks? </label>
-            <div><div>Little effort</div><input type="range" name="effort" id="effort" min="0" max="10"><div>A lot of effort</div></div>  
+            <label for="difficulty">Did you find it difficult to use the navigation menu? </label>
+            <div><div>Not difficult</div><input type="range" name="difficulty" id="difficulty" min="0" max="10"><div>Very difficult</div></div>  
         </div>
         <div>
             <label for="menu-annoyance">Did you find the graphical menu annoying?</label>

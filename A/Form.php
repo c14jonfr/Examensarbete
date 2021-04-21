@@ -36,20 +36,20 @@
             </select>
         </div>
         <div>
-            <label for="effort">How much effort did it take you to navigate with the menu and solve the tasks? </label>
-            <div><div>Little effort</div><input type="range" name="effort" id="effort" min="0" max="10"><div>A lot of effort</div></div>  
+            <label for="difficulty">Did you find it difficult to use the navigation menu? </label>
+            <div><div>Not difficult</div><input type="range" name="difficulty" id="difficulty" min="0" max="10"><div>Very difficult</div></div>  
         </div>
         <div>
-            <label for="menu-annoyance">Did you find the graphical menu annoying?</label>
-            <div><div>Not annoying</div><input type="range" name="menu-annoyance" id="menu-annoyance" min="0" max="10"><div>Annoying</div></div>  
+            <label for="menu-annoyance">Did you find the navigation menu annoying to use?</label>
+            <div><div>Not annoying</div><input type="range" name="menu-annoyance" id="menu-annoyance" min="0" max="10"><div>Very annoying</div></div>  
         </div>
         <div>
-            <label for="audio-annoyance">Did you find the audio annoying?</label>
-            <div><div>Not annoying</div><input type="range" name="audio-annoyance" id="audio-annoyance" min="0" max="10"><div>Annoying</div></div>
+            <label for="audio-distraction">Did you find the audio distracting?</label>
+            <div><div>Not distracting</div><input type="range" name="audio-distraction" id="audio-distraction" min="0" max="10"><div>Very distracting</div></div>
         </div>
         <div>
             <label for="audio-helpfulness">Did you find the audio helpful?</label>
-            <div><div>Not helpful</div><input type="range" name="audio-helpfulness" id="audio-helfulness" min="0" max="10"><div>Helpful</div></div>
+            <div><div>Not helpful</div><input type="range" name="audio-helpfulness" id="audio-helfulness" min="0" max="10"><div>Very helpful</div></div>
         </div>
         <div>
             <label for="comments">Do you have any general comments about the application or the test? (Optional)</label>

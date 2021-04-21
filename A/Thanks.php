@@ -8,9 +8,9 @@
         'application' => 'A',
         'age'     => $_POST['age'],
         'gender'    => $_POST['gender'],
-        'effort'    => $_POST['effort'],
+        'difficulty'    => $_POST['difficulty'],
         'menu-annoyance'    => $_POST['menu-annoyance'],
-        'audio-annoyance'    => $_POST['audio-annoyance'],
+        'audio-distraction'    => $_POST['audio-distraction'],
         'audio-helpfulness'    => $_POST['audio-helpfulness'],
         'comments'        => $_POST['comments'],
         'taskTimes' => json_decode($_POST['taskTimes'])
