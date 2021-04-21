@@ -63,6 +63,10 @@ body{
   border-radius: 0.2rem;
 }
 
+.buttons button:hover{
+  border: 2px solid yellow;
+}
+
 .buy-button{
   background-color: lightgreen;
 }
@@ -205,6 +209,11 @@ nav ul li ul li {
   font-size: 2rem;
 }
 
+#instruction-p{
+  font-style: italic;
+  padding: 0.5rem;
+}
+
 .instructions p{
   max-width: 45ch;
 }
@@ -219,6 +228,14 @@ nav ul li ul li {
   height: 50%;
   width: 100%;
   background-color: navajowhite;
+}
+
+#start-button{
+  padding: 0.5rem;
+  outline: 0;
+  border: 1px solid lightgreen;
+  justify-self: center;
+  cursor: pointer;
 }
 
 .vis-container{
