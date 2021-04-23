@@ -1,6 +1,8 @@
 <?php echo '
   <nav role="navigation">
   <ul class="top-menu">
+    <!-- Original sample by prometheus888 https://freesound.org/people/prometheus888/ used under CC0 1.0 Universal (CC0 1.0)
+    Public Domain Dedication License -->
     <li tabindex="0" class="audio-item" data-audio="Car.mp3">Cars
       <ul class="sub-menu">
         <li tabindex="0" class="audio-item" data-audio="CarA.mp3">Company A
@@ -26,6 +28,8 @@
         </li>
       </ul>
     </li>
+    <!-- Original sample by devy32 https://freesound.org/people/devy32/ used under CC0 1.0 Universal (CC0 1.0)
+    Public Domain Dedication License -->
     <li tabindex="0" class="audio-item" data-audio="Boat.mp3">Boats
       <ul class="sub-menu">
         <li tabindex="0" class="audio-item" data-audio="BoatB.mp3">Company B
