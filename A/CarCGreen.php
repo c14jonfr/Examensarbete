@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../Shared/style.css">
   <script src="./AudioHandler.js" defer></script>
   <script src="../Shared/TaskHandler.js" defer></script>
-  <title>Car Company C Green</title>
+  <title>Car Pop's Green</title>
 </head>
 <body>
   <?php include '../Shared/instructions.php'?>
@@ -17,9 +17,9 @@
     <?php include '../Shared/nav-menu.php'?>
     <main>
       <div class="product">
-        <img src="../Shared/Images/CarGreen.jpg" alt="productimage car company C green" class="solution" data-solution="6">
+        <img src="../Shared/Images/CarGreen.jpg" alt="productimage car Pop's green" class="solution" data-solution="6">
         <h3 class="product-name">Green Car</h3>
-        <h4 class="product-company">Company C</h4>
+        <h4 class="product-company">Pop's</h4>
         <div class="buttons">
           <button class="buy-button">Buy</button>
           <button class="share-button">Recommend to a friend</button>

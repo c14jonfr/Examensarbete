@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../Shared/style.css">
   <script src="../Shared/TaskHandler.js" defer></script>
-  <title>Boat Company C Green</title>
+  <title>Boat Pop's Green</title>
 </head>
 <body>
   <?php include '../Shared/instructions.php'?>
@@ -16,9 +16,9 @@
     <?php include '../Shared/nav-menu.php'?>
     <main>
       <div class="product">
-        <img src="../Shared/Images/BoatGreen.jpg" alt="productimage boat company C green">
+        <img src="../Shared/Images/BoatGreen.jpg" alt="productimage boat Pop's green">
         <h3 class="product-name">Green Boat</h3>
-        <h4 class="product-company">Company C</h4>
+        <h4 class="product-company">Pop's</h4>
         <div class="buttons">
           <button class="buy-button">Buy</button>
           <button class="share-button">Recommend to a friend</button>
